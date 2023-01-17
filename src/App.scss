@@ -1,0 +1,67 @@
+/* @font-face{
+    font-family: "rubic";
+    src:local("Rubik-VariableFont_wght"),
+    url("./assets/font/Rubik-VariableFont_wght.ttf") format("truetype")
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #EBEEF3;
+    overflow-x: hidden;
+   
+}
+.neonText1 {
+    color: #ffbf36;
+    text-shadow:
+        // 0 0 7px #defe47,
+      //  0 0 10px #defe47,
+        0 0 21px #ffaf03,
+        0 0 42px #fe00fe,
+        // 0 0 82px #fe00fe,
+        // 0 0 92px #defe47,
+        0 0 102px #defe47,
+        0 0 151px #defe47;
+  }
+  .neonText2 {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fe00fe,
+        0 0 10px #fe00fe,
+        0 0 21px #fe00fe,
+        0 0 42px #7700a6,
+        0 0 82px #7700a6,
+        0 0 92px #7700a6,
+        0 0 102px #7700a6,
+        0 0 151px #7700a6;
+  }
+  .neonText3 {
+    color: #fff;
+    text-shadow:
+         0 0 7px #fff,
+         0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #fe00fe,
+        0 0 82px #fe00fe,
+        // 0 0 92px #fe00fe,
+        // 0 0 102px #fe00fe,
+        // 0 0 151px #fe00fe;
+  }
+  .neonText4 {
+    color: #acb2fd;
+    text-shadow:
+       0 0 7px #0016ee,
+0 0 10px #0016ee,
+//0 0 15px #0016ee,
+
+  //      0 0 21px #0016ee,
+        // 0 0 42px #0016ee,
+        // 0 0 82px #0016ee,
+        // 0 0 92px #fe00fe,
+        // 0 0 102px #fe00fe,
+        // 0 0 151px #fe00fe;
+  }

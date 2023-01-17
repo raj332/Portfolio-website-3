@@ -1,0 +1,55 @@
+nav{
+    margin-left: 4rem;
+    position: fixed;
+    width: 3.5rem;
+    z-index: 200;
+    
+  bottom:0;
+  text-decoration: none;
+  margin-bottom: 1rem;
+    transition: all 0.3s linear;
+    a:hover{
+        transform: scale(1.2);
+      
+    }
+}
+nav:hover{
+transform: scale(1.05);
+}
+
+  nav li{
+    height: 3.5rem;
+    position:relative;
+    list-style-type: none;
+  }
+  nav li a{
+  color: #ffbf36;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 3.5rem;
+    transition: all .3s linear;
+  }
+  nav li:nth-child(1) a{
+ 
+  }
+  nav li:nth-child(2) a{
+   
+  }
+  nav li:nth-child(3) a{
+  }
+  nav li:nth-child(4) a{
+  }
+  nav li:nth-child(5) a{
+  }
+  nav li:nth-child(6) a{
+  }
+  nav li a i{
+    position:absolute;
+    top: 0.5rem;
+   
+
+    font-size: 1.8rem;
+  }
+ 
+  

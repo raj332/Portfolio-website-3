@@ -1,0 +1,50 @@
+.homeContainer{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/imgs/homebg.jpg");
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    flex-direction: column;
+    top:0;
+   
+display: flex;
+justify-content: center;
+align-items: center;
+
+.contactInfo{
+height: 30%;
+width:-webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    right: 0;
+    align-items: flex-end;
+    padding-right: 4rem;
+}
+    .profileCard{
+        height: 60%;
+        margin: 0rem 2rem;
+        display: flex;
+
+        flex-direction: column;
+       justify-items: center;
+      justify-content:end;
+       text-align:center;
+   width: 70%;
+        h1{
+            font-size: 4rem;
+        }
+   p{
+    margin: 2rem;
+    font-size: large;
+   }
+    }
+    .profilePic img{
+        margin: 2rem;
+        height: 10rem;
+border-radius: 50%;
+border: 4px solid #defe47;
+    }
+}
