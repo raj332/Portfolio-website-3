@@ -1,0 +1,203 @@
+.aboutContainer{
+    background-color: #130b1e;
+}
+.dataContainer{
+    
+    display: flex;
+    justify-content:center ;
+    padding:4rem 4rem;
+    flex-wrap: wrap;
+    .rightContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 3rem;
+        color: white;
+
+        h3{
+            font-size: larger;
+            margin: 1rem 0rem;
+        }
+        td{
+            font-size:medium;
+            padding: 0.5rem;
+        }
+    }
+    .leftContainer{
+        .aboutImg{
+            height: 20rem;
+            width: 24rem;
+       
+        }
+        box-shadow: 0px 0px 15px #00b2feb2;
+        position: relative;
+        width: 24rem;
+        height: 20rem;
+        color: #fff;
+        background: transparent;
+        overflow: hidden;
+        border: 2px solid #00b3fe;
+        border-radius: 4px;  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5rem;
+    
+        span {
+            position: absolute;
+            border-radius: 100vmax;
+       
+          }
+    
+          .top {
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0.5rem;
+            background: linear-gradient(
+              90deg,
+              transparent 50%,
+              #00b3fe
+            );
+          }
+    
+          .bottom {
+            right: 0;
+            bottom: 0;
+            height: 0.5rem;
+            background: linear-gradient(
+              90deg,
+           
+              #00b3fe,
+              transparent 50%
+            );
+          }
+    
+          .right {
+            top: 0;
+            right: 0;
+            width: 0.5rem;
+            height: 0;
+            background: linear-gradient(
+              180deg,
+              transparent 50%,
+             
+              #00b3fe
+            );
+          }
+    
+          .left {
+            left: 0;
+            bottom: 0;
+            width: 0.5rem;
+            height: 0;
+            background: linear-gradient(
+              180deg,
+           
+              #00b3fe,
+              transparent 50%
+            );
+          }
+    
+          .top {
+            animation: animateTop 3s ease-in-out infinite;
+          }
+    
+          .bottom {
+            animation: animateBottom 3s ease-in-out infinite;
+          }
+    
+          .right {
+            animation: animateRight 3s linear infinite;
+          }
+    
+          .left {
+            animation: animateLeft 3s ease-in-out infinite;
+          }
+    
+          @keyframes animateTop {
+            25% {
+              width: 100%;
+              opacity: 1;
+            }
+    
+            30%,
+            100% {
+              opacity: 0;
+            }
+          }
+    
+          @keyframes animateBottom {
+            0%,
+            50% {
+              opacity: 0;
+              width: 0;
+            }
+    
+            75% {
+              opacity: 1;
+              width: 100%;
+            }
+    
+            76%,
+            100% {
+              opacity: 0;
+            }
+          }
+    
+          @keyframes animateRight {
+            0%,
+            25% {
+              opacity: 0;
+              height: 0;
+            }
+    
+            50% {
+              opacity: 1;
+              height: 100%;
+            }
+    
+            55%,
+            100% {
+              height: 100%;
+              opacity: 0;
+            }
+          }
+    
+          @keyframes animateLeft {
+            0%,
+            75% {
+              opacity: 0;
+              bottom: 0;
+              height: 0;
+            }
+    
+            100% {
+              opacity: 1;
+              height: 100%;
+            }
+          }
+    }
+}
+
+// img {
+//     --g: 4px;     /* the gap */
+//     --b: 12px;    /* border thickness*/
+//     --c: #669706; /* the color */
+    
+    
+//     padding: calc(var(--g) + var(--b));
+//     --_c: #0000 0 25%, var(--c) 0 50%;
+//     --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+//     --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+//     background:
+//       var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+//       var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+//     background-size: 200% var(--b),var(--b) 200%;
+//     cursor: pointer;
+//     filter: grayscale(50%);
+//     transition: .3s;
+//   }
+//   img:hover {
+//     --_p: 75%;
+//     filter: grayscale(0%);
+//   }

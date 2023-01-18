@@ -3,6 +3,8 @@ import "./Home.scss"
 import profilePic from '../../assets/imgs/profilePic.jpg'
 const Home = () => {
   return (
+    <div class="supContainer">
+    
     <div className="homeContainer">
         <div className="profileCard"> 
         {/* <div className='profilePic'>
@@ -17,6 +19,7 @@ const Home = () => {
         <span> P : +91-9724140616</span>
 
         </div>
+    </div>
     </div>
   )
 }
